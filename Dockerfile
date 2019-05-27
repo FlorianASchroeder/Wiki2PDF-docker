@@ -14,6 +14,7 @@ RUN export LC_ALL=en_US.UTF-8
 
 # install Markdown to PDF
 RUN gem install kramdown
+RUN gem install kramdown-converter-pdf
 RUN gem install prawn
 RUN gem install prawn-table
 
